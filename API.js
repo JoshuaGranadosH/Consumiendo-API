@@ -14,7 +14,7 @@ const marvel = {
                 <a href="${urlHero}" target="_blank">
                   <img src="${hero.thumbnail.path}.${hero.thumbnail.extension}" alt="${hero.name}" class="img-thumbnail">
                 </a>
-                <h3 class="title">${hero.name}</h3>
+                <h3 class="title" id="texto">${hero.name}</h3>
             </div>`;
         }
         container.innerHTML = contentHTML;
