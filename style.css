@@ -2,3 +2,25 @@ img.img-thumbnail {
   width: 80%;
   height: 80%;
 }
+
+body {
+  background: #eee;
+  background-image: url(image.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#marvel:hover{
+  border-radius: 25px;
+  overflow: hidden;
+  padding-bottom: 15px;
+  background: rgba(3, 82, 252, 0.993);
+  box-shadow: 0 0 10px #e6e6e6;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  overflow: hidden;
+  transition: all 0.25s;
+  transform: translateY(-15px);
+}
